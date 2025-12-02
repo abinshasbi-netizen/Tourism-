@@ -1,0 +1,195 @@
+*{
+
+  margin: 0;
+}
+body{
+
+  background-color: black;
+}
+.light-mode{
+
+  background-color: white;
+  color: black;
+}
+
+#hd {
+  
+  height: 5rem;
+  background: linear-gradient(to bottom, #006f2b, #00000000);
+  
+  
+}
+#icn {
+  max-height: 70px;   
+  height: auto;
+  width: auto;
+  display: block;
+}
+.navbar-toggler{
+
+  border: 1px solid rgba(255, 255, 255, 0.359);
+  background-color: rgba(255, 255, 255, 0.248);
+  font-size: 90%;
+} 
+
+.navbar .nav-link{
+
+color: white;
+}
+.navbar .nav-link:hover {
+  color: aqua !important;
+}
+
+.active{
+color: rgb(246, 255, 0) !important;
+}
+
+#ttl{
+
+  color: white;
+  font-family:"Pacifico", cursive;
+  font-weight: normal;
+  text-align: center;
+}
+#ttl a:link{
+
+  color: white;
+  text-decoration: none;
+}  
+#ttl a:hover{
+
+  color: white;
+}
+  
+.carousel-item img {
+
+  max-height: 640px;
+}
+.navbar-collapse {
+  position: relative;
+  z-index: 10;
+  background-color: #ffffff00; 
+  
+}
+#carouselExampleAutoplaying{
+
+  margin-bottom: 5rem;
+}
+.cap{
+  
+  font-family:"Pacifico", cursive;
+  color: #248f50 !important;
+}
+.cap2{
+  
+  font-family:"Saira", sans-serif;  
+}
+#dwn{
+
+  margin-top: 10rem;
+   background-image: url("gradient_faded_output_1.png");
+   background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+
+.col-3{
+  display: flex;
+  justify-content: center;
+}
+.btn{
+
+  display: flex;
+  justify-self: center;
+  max-width: 50%;
+}
+.crd{
+
+  margin-top: 2em;
+  margin-bottom: 2em;
+
+}
+#pcptn{
+
+margin: 0%;
+padding-left: 0% !important;
+display: flex;
+align-items: center;
+
+}
+img.img-fluid{
+ max-width: 40%;
+
+ 
+}
+ .fs-6,
+ .fs-md-2 {
+
+  color: white;
+  
+   font-family: "Ubuntu", sans-serif;
+  font-weight: 300;
+  font-style: italic;
+  white-space: nowrap;
+  
+}
+.col{
+
+  justify-items: center;
+}
+.imr{
+
+  transition: 0.2s ease-in-out;
+}
+.imr:hover{
+
+  color: yellow !important ;
+  font-size: larger !important;
+}
+#tp{
+margin-top: 5%;
+background: linear-gradient(to bottom, #00000000, #006f2b);
+height: 75px;
+}
+
+#ft{
+
+  background-color: #006f2b;
+  font-family:"Saira", sans-serif;  
+}
+#mn{
+  line-height: 2em;
+}
+.fa-brands{
+
+  color: white;
+  font-size: 2em;
+  border: 0.1px transparent white;
+  border-radius: 5em;
+  margin-right: 1em;
+  
+}
+.fa-brands:hover{
+
+ color: aqua;
+}
+#spn{
+
+  white-space: nowrap;
+}
+.card-img{
+
+  max-height: 25%;
+}
+#art{
+  padding-top: 5%;
+  padding-bottom: 4%;
+  background-image: url(bg-image\ T.png);
+    background-size: cover;
+  background-repeat: no-repeat;
+  background-position: center;
+}
+.clr{
+
+  color: red;
+}
